@@ -12,13 +12,12 @@
 ! GENERAL 
 ========================================================== */
 body {
-  background-image: url('../../img/xps-7ZWVnVSaafY-unsplash.jpg');
+  background-image: url("../../img/xps-7ZWVnVSaafY-unsplash.jpg");
   background-color: #031634;
   justify-content: center;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  
 }
 h1,
 h2 {
@@ -26,7 +25,7 @@ h2 {
 }
 
 .color1 {
-   color: #09afad;
+  color: #09afad;
 }
 h3 {
   color: #031634;
@@ -147,16 +146,24 @@ p {
   background: #09afad;
 }
 .progress-bar-2 {
-  background: #031634;
+  background: #41b883;
 }
 .progress-bar-3 {
-  background: #da222b;
+  background: #2496ed;
 }
 .progress-bar-4 {
-  background: #759c8a;
+  background: #d6002f;
 }
 .progress-bar-5 {
   background: #474c58;
+}
+
+.progress-bar-6 {
+  background: #4e79dd;
+}
+
+.progress-bar-7 {
+  background: #8cbf3d;
 }
 /* ==========================================================
 ! SECTION: PORTFOLIO
