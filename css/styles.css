@@ -40,7 +40,7 @@ Primary use:	CV / Resume
   color: #ce5f5f;
 }
 .font1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .bold {
   font-weight: bold;
@@ -52,8 +52,8 @@ Primary use:	CV / Resume
   background-size: cover;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
-  background-image: url('../img/background2.jpg');
+  font-family: "Open Sans", sans-serif;
+  background-image: url("../img/background2.jpg");
   background-attachment: fixed;
   background-repeat: repeat-x;
   background-color: #3b658a;
@@ -70,7 +70,7 @@ body {
     background-image: none;
   }
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   padding: 0px;
 }
 ul {
@@ -146,7 +146,7 @@ h3 {
   font-size: 10px;
 }
 .nicescroll-rails {
-  z-index: 9999!important;
+  z-index: 9999 !important;
 }
 .line-content {
   opacity: 1;
@@ -183,7 +183,7 @@ p {
     font-size: 40px;
   }
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .intro-title1 {
     margin-top: 0;
     font-size: 54px;
@@ -210,7 +210,7 @@ p {
   line-height: 40px;
   padding-bottom: 20px;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .section-title {
     margin-left: -15px;
   }
@@ -376,17 +376,17 @@ p {
   transition: all 0.3s ease-in-out;
 }
 .side-menu-nav li a:hover {
-  padding-left: 5px!important;
+  padding-left: 5px !important;
   color: #fff;
   font-weight: 300;
   text-decoration: none;
 }
 .side-menu-nav li.active a {
-  padding-left: 5px!important;
+  padding-left: 5px !important;
   color: #fff;
   font-weight: 300;
   text-decoration: none;
-  background: none!important;
+  background: none !important;
 }
 .nav > li > a {
   padding: 0;
@@ -461,7 +461,7 @@ p {
   margin-bottom: 10px;
   position: relative;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   #content-body {
     margin-top: 45px;
     margin-bottom: 90px;
@@ -477,7 +477,8 @@ p {
   padding-top: 15px;
 }
 .resume-container {
-  background: url('../img/paper-bg2.png') no-repeat top left, url('../img/paper-bg-bot.png') no-repeat bottom right, #fafafa;
+  background: url("../img/paper-bg2.png") no-repeat top left,
+    url("../img/paper-bg-bot.png") no-repeat bottom right, #fafafa;
 }
 /* ==========================================================
 ! 7. Profile intro
@@ -487,7 +488,7 @@ p {
   position: relative;
   z-index: 99;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .profile-intro {
     height: 245px;
   }
@@ -524,7 +525,7 @@ p {
   position: relative;
   z-index: 88;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .timeline-wrap {
     top: -44px;
   }
@@ -532,47 +533,47 @@ p {
 .timeline-bg {
   background: #fafafa;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .timeline-bg {
-    background: url('../img/timeline-bg.png') repeat-x center center fixed;
+    background: url("../img/timeline-bg.png") repeat-x center center fixed;
   }
 }
 .bg1 {
   background: #fafafa;
 }
 .timeline-progress {
-  background: url('../img/progress-bar.png') repeat-y center;
+  background: url("../img/progress-bar.png") repeat-y center;
   background-size: 400px 9px;
 }
 .timeline-point {
-  background: url('../img/progress-point.png') center center;
+  background: url("../img/progress-point.png") center center;
   background-size: 400px 500px;
 }
 .timeline-education {
-  background: url('../img/progress-education4.png') no-repeat center center;
+  background: url("../img/progress-education4.png") no-repeat center center;
   background-size: 400px 500px;
 }
 .timeline-work {
-  background: url('../img/progress-work3.png') no-repeat center center;
+  background: url("../img/progress-work3.png") no-repeat center center;
   background-size: 400px 500px;
 }
 .timeline-mail {
-  background: url('../img/progress-mail3.png') no-repeat center center;
+  background: url("../img/progress-mail3.png") no-repeat center center;
   background-size: 400px 500px;
 }
 .timeline-title {
-  background: url('../img/progress-section-title3.png') no-repeat center center;
+  background: url("../img/progress-section-title3.png") no-repeat center center;
   background-size: 400px 500px;
 }
 .timeline-margin .content-wrap {
   height: 40px;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .timeline-margin .content-wrap {
     height: 80px;
   }
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .timeline-margin-big .content-wrap {
     height: 260px;
   }
@@ -581,7 +582,7 @@ p {
   color: #555555;
   font-size: 16px;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .line-content {
     margin-left: -15px;
   }
@@ -600,7 +601,7 @@ p {
 .line-content-education {
   padding-bottom: 10px;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .line-content-education {
     min-height: 150px;
   }
@@ -670,7 +671,7 @@ p {
 }
 .portfolio-item {
   position: relative;
-  cursor: crosshair!important;
+  cursor: crosshair !important;
   width: 200px;
   height: 180px;
   overflow: hidden;
@@ -684,7 +685,7 @@ p {
 .portfolio-item a {
   background: none;
   display: block;
-  cursor: crosshair!important;
+  cursor: crosshair !important;
 }
 .portfolio-item img {
   width: 100%;
@@ -808,7 +809,7 @@ textarea.form-control {
 }
 textarea.form-control {
   width: 100% !important;
-  height: 100px!important;
+  height: 100px !important;
 }
 .form-send {
   margin-top: 10px;
@@ -851,7 +852,7 @@ textarea.form-control {
   margin-bottom: 4px;
   margin-top: 20px;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .contact-subtitle-1 {
     font-size: 14px;
     margin-top: 0;
@@ -866,7 +867,7 @@ textarea.form-control {
 .contact-infos p {
   font-size: 16px;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .contact-infos {
     text-align: left;
     margin-top: 0;
@@ -927,7 +928,7 @@ textarea.form-control {
   top: -5px;
   text-align: center;
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .thank-you {
     text-align: left;
   }
@@ -984,7 +985,7 @@ textarea.form-control {
   display: block;
 }
 .safari .form-send {
-  padding-top: 0!important;
+  padding-top: 0 !important;
   margin: 0 auto;
 }
 .safari .btn-side-menu {
